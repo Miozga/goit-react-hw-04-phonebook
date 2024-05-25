@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+// index.js
+import ReactDOM from 'react-dom';
+import App from './App';
+import './book.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.render(<App />, document.getElementById('root'));
